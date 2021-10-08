@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-style: normal;
+    font-variant: normal;
+}
+body{
+    background-color: #C98787;
+}
+.countaner{
+    display: flex;
+}
+.about-me{
+    font-family: 'Exo 2', sans-serif;
+    width: 58%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-family: 'Dynalight', cursive;
+    font-size: 4rem;
+    margin-bottom: 65px;
+}
+p{
+    font-size: 2rem;
+}
+.pht-bg{
+    background-image: url(./media/photo\ lamp.svg);
+    background-size: cover;
+    background-position:center ;
+    width: 42%;
+    height: 100vh;
+}
+.pht-bg img{
+    height: 100vh;
+    width: 420px;
+}
+.github{
+    margin-top: 90px;
+}
+.github img{
+    width: 97px;
+    transform: translate(22px, 10px);
+    margin-top: 16px;
+}
