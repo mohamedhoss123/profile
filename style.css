@@ -70,6 +70,7 @@ p{
     }
     .github img{
         transform: translate(0px, 0px);
+        width: 95px;
     }
     
     .countaner div:nth-child(2) , .countaner div:nth-child(3){
